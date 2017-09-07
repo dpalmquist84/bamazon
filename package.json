@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon like store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpalmquist84/bamazon.git"
+  },
+  "author": "David S. Palmquist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpalmquist84/bamazon/issues"
+  },
+  "homepage": "https://github.com/dpalmquist84/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.2.3",
+    "mysql": "^2.14.1"
+  }
+}

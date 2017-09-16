@@ -1,2 +1,8 @@
 # bamazon
-Amazon like store 
+## Overview
+There are two vidoes: bamazonCustomer bamazonManager
+
+##### The bamazon customer video runs the user through the UI for the bamazon store.  You can view items, see items, and see the total of you purchases.
+##### the bamazon manager video runs the user through the UI for the manager portion of the store.  For the manager you can view inventory, inventory levels, add to the stock levels, and add a new products.
+
+

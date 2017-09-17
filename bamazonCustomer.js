@@ -158,6 +158,9 @@ function updateDB(){
 //manager interface
 //-------------------------------------------------------------------------------------------
 function manager() {
+    connection.query("SELECT * FROM products", function(err, results) {
+        if (err) throw err;
+    });
     
     console.log(`the password is:`);
     console.log(colors.bold.red(`password`));
@@ -233,7 +236,7 @@ function products() {
 }
 //function the view low inventory
 function inventory() {  
-    var query = "SELECT product_name FROM products GROUP BY stock_quantity HAVING count(*) < 10";
+    var query = "SELECT product_name FROM products WHERE stock_quantity < 10";
     connection.query(query, function(err, res) {
         console.log(`Less than 10 left.  Buy Now ⏱ TIME IS RUNNING OUT`)
         if (err) throw (err);

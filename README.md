@@ -6,3 +6,6 @@ The bamazon customer video runs the user through the UI for the bamazon store.  
 
 ### bamazonCustomer.webm
 https://www.youtube.com/embed/FWRc-Cbnaf8"
+
+### bamazonManger.webm
+"https://www.youtube.com/embed/T0tQfArCUnU"
